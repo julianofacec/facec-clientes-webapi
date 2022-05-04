@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj": {}
+    "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
+    "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj",
+        "projectUniqueName": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj",
         "projectName": "Facec.Dominio",
-        "projectPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj",
-        "packagesPath": "C:\\Users\\juliano.maciel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\obj\\",
+        "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj",
+        "packagesPath": "C:\\Users\\jr_57\\.nuget\\packages\\",
+        "outputPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\juliano.maciel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jr_57\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,17 +58,17 @@
         }
       }
     },
-    "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj": {
+    "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj",
+        "projectUniqueName": "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
         "projectName": "Facec.IoC",
-        "projectPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.IoC\\Facec.IoC.csproj",
-        "packagesPath": "C:\\Users\\juliano.maciel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.IoC\\obj\\",
+        "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
+        "packagesPath": "C:\\Users\\jr_57\\.nuget\\packages\\",
+        "outputPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\juliano.maciel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jr_57\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,11 +82,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
-                "projectPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+              "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj"
               },
-              "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj": {
-                "projectPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj"
+              "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj": {
+                "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj"
+              },
+              "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj": {
+                "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj"
               }
             }
           }
@@ -125,17 +128,17 @@
         }
       }
     },
-    "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj": {
+    "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
-        "projectName": "Facec.Servicos",
-        "projectPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\Facec.Servicos.csproj",
-        "packagesPath": "C:\\Users\\juliano.maciel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Servicos\\obj\\",
+        "projectUniqueName": "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj",
+        "projectName": "Facec.Repositorio",
+        "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj",
+        "packagesPath": "C:\\Users\\jr_57\\.nuget\\packages\\",
+        "outputPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\juliano.maciel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jr_57\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -149,8 +152,86 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj": {
-                "projectPath": "C:\\Users\\juliano.maciel\\source\\repos\\Facec.Web.Api\\Facec.Dominio\\Facec.Dominio.csproj"
+              "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj",
+        "projectName": "Facec.Servicos",
+        "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj",
+        "packagesPath": "C:\\Users\\jr_57\\.nuget\\packages\\",
+        "outputPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jr_57\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
+                "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj"
               }
             }
           }
