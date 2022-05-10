@@ -25,4 +25,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 #ENTRYPOINT ["dotnet", "Facec.WebApi.dll"]
-CMD ASPNETCORE_URLS="htpp://*:$PORT" dotnet Facec.WebApi.dll
+CMD ASPNETCORE_URLS="http://*:$PORT" dotnet Facec.WebApi.dll
