@@ -10,16 +10,39 @@ namespace Facec.Repositorio.nsContext
 {
     public class DataBaseContext : DbContext
     {
-        public DataBaseContext() { }
+        public DataBaseContext() 
+        {
+            ApplyMigrations();
+        }
 
         public DataBaseContext(DbContextOptions<DataBaseContext> options)
-        : base(options){ }
+        : base(options)
+        {
+            ApplyMigrations();
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Cliente>();
+            modelBuilder.Entity<Cliente>(x => 
+                {
+                    x.ToTable("CLIENTE");
+                    x.Property(y => y.Id).HasColumnName("ID");
+
+                    x.Property(y => y.Documento)
+                    .HasColumnName("DS_DOCUMENTO")
+                    .IsRequired();
+
+                    x.Property(y => y.Nome)
+                    .HasColumnName("DS_NOME");
+                });
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        private void ApplyMigrations()
+        {
+            if (Database.GetPendingMigrations().Any())
+                Database.Migrate();
         }
     }
 }

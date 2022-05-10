@@ -1,5 +1,6 @@
 ﻿using Facec.Dominio.nsEntidades;
 using Facec.Dominio.nsInterfaces;
+using Facec.Repositorio.nsContext;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -11,11 +12,11 @@ namespace Facec.Repositorio.nsClasses
 {
     public class ClienteRepositorio : IClienteRepositorio
     {
-        private readonly DbContext _context;
+        private readonly DataBaseContext _context;
 
         private DbSet<Cliente> Clientes => _context.Set<Cliente>();
 
-        public ClienteRepositorio(DbContext context)
+        public ClienteRepositorio(DataBaseContext context)
         {
             _context = context;
         }

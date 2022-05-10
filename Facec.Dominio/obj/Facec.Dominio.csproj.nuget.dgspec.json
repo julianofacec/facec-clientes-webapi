@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {}
+    "E:\\Projetos\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {}
   },
   "projects": {
-    "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
+    "E:\\Projetos\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj",
+        "projectUniqueName": "E:\\Projetos\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj",
         "projectName": "Facec.Dominio",
-        "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj",
+        "projectPath": "E:\\Projetos\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj",
         "packagesPath": "C:\\Users\\jr_57\\.nuget\\packages\\",
-        "outputPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\obj\\",
+        "outputPath": "E:\\Projetos\\facec-clientes-webapi\\Facec.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jr_57\\AppData\\Roaming\\NuGet\\NuGet.Config",

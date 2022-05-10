@@ -20,7 +20,7 @@ namespace Facec.WebApi
 {
     public class Startup
     {
-        private const string _mySqlConnection = @"Server=localhost;User Id=root;Password=root;DataBase=facecwebapi";
+        private const string _mySqlConnection = @"Server=us-cdbr-east-05.cleardb.net;User Id=bc95290929c609;Password=e7b60d15;DataBase=heroku_dd4405b2e144191";
 
         private Container _container = new Container();
 

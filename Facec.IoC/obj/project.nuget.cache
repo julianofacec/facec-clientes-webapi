@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UW7YDHQvNDhIFzJNRQvoS+8iXuccUg6z5bL8a+DclsSjD0QogBlW6+Yk6OsH5dFprVC0BYUohZwWOpUkltEn9Q==",
+  "dgSpecHash": "C33DzZ/hXkCBQ+L/7pJAW0BqFTzIL1kqlMhxb72qcwcfQtF5WLWXbKQbdH9em/XDa0bVbvvq0FqVXPUbVg50MQ==",
   "success": true,
-  "projectFilePath": "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
+  "projectFilePath": "E:\\Projetos\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jr_57\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.16\\microsoft.entityframeworkcore.5.0.16.nupkg.sha512",
     "C:\\Users\\jr_57\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.16\\microsoft.entityframeworkcore.abstractions.5.0.16.nupkg.sha512",

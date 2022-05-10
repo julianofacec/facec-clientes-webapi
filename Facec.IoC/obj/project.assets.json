@@ -982,11 +982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
+      "projectUniqueName": "E:\\Projetos\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
       "projectName": "Facec.IoC",
-      "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
+      "projectPath": "E:\\Projetos\\facec-clientes-webapi\\Facec.IoC\\Facec.IoC.csproj",
       "packagesPath": "C:\\Users\\jr_57\\.nuget\\packages\\",
-      "outputPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.IoC\\obj\\",
+      "outputPath": "E:\\Projetos\\facec-clientes-webapi\\Facec.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jr_57\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1003,14 +1003,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
-              "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj"
+            "E:\\Projetos\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj": {
+              "projectPath": "E:\\Projetos\\facec-clientes-webapi\\Facec.Dominio\\Facec.Dominio.csproj"
             },
-            "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj": {
-              "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj"
+            "E:\\Projetos\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj": {
+              "projectPath": "E:\\Projetos\\facec-clientes-webapi\\Facec.Repositorio\\Facec.Repositorio.csproj"
             },
-            "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj": {
-              "projectPath": "F:\\FACEC\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj"
+            "E:\\Projetos\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj": {
+              "projectPath": "E:\\Projetos\\facec-clientes-webapi\\Facec.Servicos\\Facec.Servicos.csproj"
             }
           }
         }
