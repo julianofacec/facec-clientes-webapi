@@ -20,8 +20,6 @@ namespace Facec.WebApi
 {
     public class Startup
     {
-        private const string _mySqlConnection = @"Server=us-cdbr-east-05.cleardb.net;User Id=bc95290929c609;Password=e7b60d15;DataBase=heroku_dd4405b2e144191";
-
         private Container _container = new Container();
 
         public Startup(IConfiguration configuration)
@@ -52,7 +50,7 @@ namespace Facec.WebApi
             });
             services.AddDbContext<DataBaseContext>(options 
                 => options
-                .UseMySQL(_mySqlConnection), ServiceLifetime.Singleton);
+                .UseMySQL(Configuration.GetConnectionString("MySQL")), ServiceLifetime.Singleton);
             Instalador.Registrar(ref _container);
         }
 
