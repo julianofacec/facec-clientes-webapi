@@ -26,6 +26,10 @@ namespace Facec.WebApi.Controllers
                 _servico.Excluir(id);
                 return Ok();
             }
+            catch (ArgumentException ex)
+            {
+                return Problem(ex.Message, null, 403);
+            }
             catch (ApplicationException ex)
             {
                 return BadRequest(ex.Message);
@@ -40,6 +44,10 @@ namespace Facec.WebApi.Controllers
                 _servico.Gravar(cliente);
                 return Ok();
             }
+            catch (ArgumentException ex)
+            {
+                return Problem(ex.Message, null, 403);
+            }
             catch (ApplicationException ex)
             {
                 return BadRequest(ex.Message);
@@ -52,6 +60,10 @@ namespace Facec.WebApi.Controllers
             try
             {
                 return Ok(_servico.Obter());
+            }
+            catch (ArgumentException ex)
+            {
+                return Problem(ex.Message, null, 403);
             }
             catch (ApplicationException ex)
             {
