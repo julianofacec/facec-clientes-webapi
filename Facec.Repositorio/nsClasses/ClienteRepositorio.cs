@@ -1,4 +1,5 @@
 ﻿using Facec.Dominio.nsEntidades;
+using Facec.Dominio.nsEnums;
 using Facec.Dominio.nsInterfaces;
 using Facec.Repositorio.nsContext;
 using Microsoft.EntityFrameworkCore;
@@ -29,5 +30,8 @@ namespace Facec.Repositorio.nsClasses
 
         public IEnumerable<Cliente> Obter()
             => Clientes.AsEnumerable();
+
+        public IEnumerable<Cliente> Obter(TipoSexo sexo)
+            => Clientes.Where(x => x.Sexo == sexo).AsEnumerable();
     }
 }
