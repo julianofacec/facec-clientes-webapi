@@ -1,4 +1,5 @@
 ﻿using Facec.Dominio.nsEntidades;
+using Facec.Dominio.nsEnums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,6 @@ namespace Facec.Dominio.nsInterfaces
         void Gravar(Cliente cliente);
         void Excluir(Cliente cliente);
         IEnumerable<Cliente> Obter();
+        IEnumerable<Cliente> Obter(TipoSexo sexo);
     }
 }

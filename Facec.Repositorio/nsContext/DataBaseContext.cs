@@ -34,6 +34,9 @@ namespace Facec.Repositorio.nsContext
 
                     x.Property(y => y.Nome)
                     .HasColumnName("DS_NOME");
+
+                    x.Property(y => y.Sexo)
+                    .HasColumnName("TP_SEXO");
                 });
 
             base.OnModelCreating(modelBuilder);
