@@ -1,5 +1,6 @@
 using Facec.IoC;
 using Facec.Repositorio.nsContext;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -43,7 +44,12 @@ namespace Facec.WebApi
                 .AddTagHelperActivation();
             });
 
-            services.AddControllers();
+            services.AddControllers()
+                .AddFluentValidation(x =>
+                {
+                    x.RegisterValidatorsFromAssemblyContaining<Startup>();
+                });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Facec.WebApi", Version = "v1" });

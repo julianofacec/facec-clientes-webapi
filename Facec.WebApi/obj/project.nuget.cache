@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oAgz77VcIkXQhwnBYNQ6HzRdr7wvyMZa5H7zzuAnl+7rz4Q78gfSfIKuNTJzw5OULE4TSuRuygdSMq3sTRucew==",
+  "dgSpecHash": "tnp96x2++bJ7Z0Ec3OFHHkAcTawHPBnKpK1hgaBY3W95a+GMva5qCzKWvuboRD/puaMmwCeEQKJHwTEkY/K4Nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\juliano.maciel\\source\\repos\\facec-clientes-webapi\\Facec.WebApi\\Facec.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juliano.maciel\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\juliano.maciel\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\juliano.maciel\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.1\\fluentvalidation.aspnetcore.11.0.1.nupkg.sha512",
+    "C:\\Users\\juliano.maciel\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.1\\fluentvalidation.dependencyinjectionextensions.11.0.1.nupkg.sha512",
     "C:\\Users\\juliano.maciel\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\juliano.maciel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\juliano.maciel\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

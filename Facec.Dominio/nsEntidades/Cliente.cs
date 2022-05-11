@@ -17,20 +17,20 @@ namespace Facec.Dominio.nsEntidades
             Nome = nome;
             Documento = documento;
 
-            ValidarNome();
-            ValidarDocumento();
+            //ValidarNome();
+            //ValidarDocumento();
         }
 
-        private void ValidarNome()
-        {
-            if (string.IsNullOrWhiteSpace(Nome))
-                throw new ArgumentException("Informe o nome do cliente!");
-        }
+        //private void ValidarNome()
+        //{
+        //    if (string.IsNullOrWhiteSpace(Nome))
+        //        throw new ArgumentException("Informe o nome do cliente!");
+        //}
 
-        private void ValidarDocumento()
-        {
-            if (string.IsNullOrWhiteSpace(Documento))
-                throw new ArgumentException("Informe o documento do cliente!");
-        }
+        //private void ValidarDocumento()
+        //{
+        //    if (string.IsNullOrWhiteSpace(Documento))
+        //        throw new ArgumentException("Informe o documento do cliente!");
+        //}
     }
 }

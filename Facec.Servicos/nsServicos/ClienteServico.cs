@@ -11,6 +11,7 @@ namespace Facec.Servicos.nsServicos
     public class ClienteServico : IClienteServico
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly ValidadorDocumentoServico _validadorDocumentoServico = new ValidadorDocumentoServico();
 
         public ClienteServico(IUnitOfWork unitOfWork)
         {
@@ -29,6 +30,8 @@ namespace Facec.Servicos.nsServicos
 
         public void Gravar(Cliente cliente)
         {
+            _validadorDocumentoServico.Validar(cliente.Documento);
+
             if (_unitOfWork.ClienteRepositorio.Obter()
                 .FirstOrDefault(x => x.Documento == cliente.Documento) != null)
                 throw new ApplicationException("Cliente já cadastrado! Verifique.");

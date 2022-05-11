@@ -2,13 +2,12 @@
 using Facec.Dominio.nsInterfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 
 namespace Facec.WebApi.Controllers
 {
     [ApiController]
     [Route("clientes")]
-    public class ClienteController : ControllerBase
+    public class ClienteController : AbstractController
     {
         private readonly IClienteServico _servico;
 
@@ -19,56 +18,12 @@ namespace Facec.WebApi.Controllers
 
         [HttpDelete]
         [Route("{id}")]
-        public IActionResult Excluir(Guid id)
-        {
-            try
-            {
-                _servico.Excluir(id);
-                return Ok();
-            }
-            catch (ArgumentException ex)
-            {
-                return Problem(ex.Message, null, 403);
-            }
-            catch (ApplicationException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+        public IActionResult Excluir(Guid id) => InvokeMethod(_servico.Excluir, id);
 
         [HttpPost]
-        public IActionResult Gravar(Cliente cliente)
-        {
-            try
-            {
-                _servico.Gravar(cliente);
-                return Ok();
-            }
-            catch (ArgumentException ex)
-            {
-                return Problem(ex.Message, null, 403);
-            }
-            catch (ApplicationException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+        public IActionResult Gravar(Cliente cliente) => InvokeMethod(_servico.Gravar, cliente);
 
         [HttpGet]
-        public IActionResult Obter()
-        {
-            try
-            {
-                return Ok(_servico.Obter());
-            }
-            catch (ArgumentException ex)
-            {
-                return Problem(ex.Message, null, 403);
-            }
-            catch (ApplicationException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+        public IActionResult Obter() => InvokeMethod(_servico.Obter);
     }
 }

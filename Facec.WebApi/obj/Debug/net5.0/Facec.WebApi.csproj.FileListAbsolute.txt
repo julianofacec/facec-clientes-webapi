@@ -277,3 +277,6 @@ E:\Projetos\facec-clientes-webapi\Facec.WebApi\obj\Debug\net5.0\refint\Facec.Web
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\obj\Debug\net5.0\Facec.WebApi.pdb
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\obj\Debug\net5.0\Facec.WebApi.genruntimeconfig.cache
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\obj\Debug\net5.0\ref\Facec.WebApi.dll
+C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
