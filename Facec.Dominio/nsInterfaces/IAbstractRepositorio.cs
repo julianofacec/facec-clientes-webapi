@@ -1,5 +1,4 @@
 ﻿using Facec.Dominio.nsEntidades;
-using Facec.Dominio.nsEnums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace Facec.Dominio.nsInterfaces
 {
-    public interface IClienteRepositorio : IAbstractRepositorio<Cliente>
+    public interface IAbstractRepositorio<T> where T : AbstractEntidade
     {
-        IEnumerable<Cliente> Obter(TipoSexo sexo);
+        void Gravar(T entidade);
+        void Excluir(T entidade);
+        IEnumerable<T> Obter();
     }
 }

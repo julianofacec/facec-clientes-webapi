@@ -134,6 +134,9 @@ C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debu
 C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Facec.WebApi.dll
 C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Facec.WebApi.pdb
 C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Google.Protobuf.dll
 C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Humanizer.dll
 C:\Users\juliano.maciel\source\repos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\K4os.Compression.LZ4.dll
@@ -210,6 +213,9 @@ E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Facec.WebApi.run
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Facec.WebApi.dll
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Facec.WebApi.pdb
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.dll
+E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Google.Protobuf.dll
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\Humanizer.dll
 E:\Projetos\facec-clientes-webapi\Facec.WebApi\bin\Debug\net5.0\K4os.Compression.LZ4.dll
