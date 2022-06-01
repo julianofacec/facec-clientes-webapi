@@ -20,9 +20,6 @@ namespace Facec.WebApi
 {
     public class Startup
     {
-        private const string _defaultURLs = "DefaultURLs";
-        private const string _defaultLocalhost = "http://localhost:3000";
-
         private Container _container = new Container();
 
         public Startup(IConfiguration configuration)
@@ -47,14 +44,7 @@ namespace Facec.WebApi
             });
 
             services.AddControllers();
-            services.AddCors(options => 
-            {
-                options.AddPolicy(_defaultURLs,
-                    policy =>
-                    {
-                        policy.WithOrigins(_defaultLocalhost);
-                    });
-            });
+            services.AddCors();
 
             services.AddSwaggerGen(c =>
             {
@@ -85,6 +75,8 @@ namespace Facec.WebApi
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors(x => x.AllowAnyOrigin());
 
             app.UseEndpoints(endpoints =>
             {
